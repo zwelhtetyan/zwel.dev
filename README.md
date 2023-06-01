@@ -1,3 +1,3 @@
 # zwel.dev
 
-zwel's portfolio
+Zwel's portfolio
