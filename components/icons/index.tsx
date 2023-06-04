@@ -29,6 +29,7 @@ export const Icons = {
     </svg>
   ),
   bear: (props: { className?: ComponentProps<"img">["className"] }) => (
+    // https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Panda.png
     <Image
       src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bear.png"
       alt="Bear"
@@ -37,14 +38,13 @@ export const Icons = {
       {...props}
     />
   ),
+  wavingHand: (props: { className?: ComponentProps<"img">["className"] }) => (
+    <Image
+      src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png"
+      alt="waving hand"
+      width={26}
+      height={26}
+      {...props}
+    />
+  ),
 };
-
-{
-  /* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Panda.png" alt="Panda" width="25" height="25" /> */
-}
-{
-  /* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bear.png" alt="Bear" width="25" height="25" /> */
-}
-{
-  /* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" /> */
-}
