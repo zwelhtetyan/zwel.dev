@@ -1,7 +1,6 @@
-import * as React from "react";
 import Link from "next/link";
 
-import { NavItem } from "@/types/nav";
+import type { NavItem } from "@/types/nav";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { Icons } from "./icons";
@@ -20,9 +19,9 @@ export function MainNav({ items }: MainNavProps) {
         </span>
       </Link>
 
-      {items?.length ? (
+      {items?.length && (
         <nav className="hidden gap-6 xs:flex">
-          {items?.map(
+          {items.map(
             (item, index) =>
               item.href && (
                 <Link
@@ -38,7 +37,7 @@ export function MainNav({ items }: MainNavProps) {
               )
           )}
         </nav>
-      ) : null}
+      )}
     </div>
   );
 }

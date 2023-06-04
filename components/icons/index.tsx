@@ -1,8 +1,11 @@
 import {
   LucideProps,
   SunMedium,
-  type Icon as LucideIcon,
   MoonStarIcon,
+  User,
+  Flame,
+  Send,
+  type Icon as LucideIcon,
 } from "lucide-react";
 import Image from "next/image";
 import { ComponentProps } from "react";
@@ -12,6 +15,9 @@ export type Icon = LucideIcon;
 export const Icons = {
   sun: SunMedium,
   moon: MoonStarIcon,
+  user: User,
+  flame: Flame,
+  send: Send,
   gitHub: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path

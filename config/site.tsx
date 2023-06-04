@@ -1,3 +1,5 @@
+import { Icons } from "@/components/icons";
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -8,14 +10,17 @@ export const siteConfig = {
     {
       title: "About",
       href: "#about",
+      Icon: Icons.user,
     },
     {
       title: "Work",
       href: "#work",
+      Icon: Icons.flame,
     },
     {
       title: "Contact",
       href: "#contact",
+      Icon: Icons.send,
     },
   ],
   links: {
