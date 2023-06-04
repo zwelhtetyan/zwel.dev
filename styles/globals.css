@@ -4,6 +4,11 @@
 
 @layer base {
   :root {
+    --headerBg: 0 0% 100% / 70%;
+
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
     --background: 0 0% 100%;
     --foreground: 222.2 47.4% 11.2%;
 
@@ -37,6 +42,11 @@
   }
 
   .dark {
+    --headerBg: 224 71% 4% / 70%;
+
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
     --background: 224 71% 4%;
     --foreground: 213 31% 91%;
 
@@ -73,7 +83,9 @@
 @layer base {
   * {
     @apply border-border;
+    scroll-behavior: smooth !important;
   }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;

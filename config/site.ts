@@ -1,18 +1,25 @@
-export type SiteConfig = typeof siteConfig
+export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Zwel",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "A passionate fullstack developer based in Myanmar. He writes codes to solve real-life problems.",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "About",
+      href: "#about",
+    },
+    {
+      title: "Work",
+      href: "#work",
+    },
+    {
+      title: "Contact",
+      href: "#contact",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    github: "https://github.com/zwelhtetyan",
     docs: "https://ui.shadcn.com",
   },
-}
+};

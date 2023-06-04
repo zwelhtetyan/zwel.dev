@@ -11,16 +11,19 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
       screens: {
-        z: "896px",
+        z: "800px",
       },
     },
     extend: {
+      screens: {
+        xs: "480px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        headerBg: "hsl(var(--headerBg))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {

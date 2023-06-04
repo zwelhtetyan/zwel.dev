@@ -1,24 +1,27 @@
-import * as React from "react"
-import Link from "next/link"
+import * as React from "react";
+import Link from "next/link";
 
-import { NavItem } from "@/types/nav"
-import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
+import { NavItem } from "@/types/nav";
+import { siteConfig } from "@/config/site";
+import { cn } from "@/lib/utils";
+import { Icons } from "./icons";
 
 interface MainNavProps {
-  items?: NavItem[]
+  items?: NavItem[];
 }
 
 export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
-      <Link href="/" className="flex items-center space-x-2">
-        <Icons.logo className="h-6 w-6" />
-        <span className="inline-block font-bold">{siteConfig.name}</span>
+      <Link href="/" className="flex items-center space-x-1">
+        <Icons.bear />
+        <span className="inline-block text-lg font-bold">
+          {siteConfig.name}
+        </span>
       </Link>
+
       {items?.length ? (
-        <nav className="flex gap-6">
+        <nav className="hidden gap-6 xs:flex">
           {items?.map(
             (item, index) =>
               item.href && (
@@ -37,5 +40,5 @@ export function MainNav({ items }: MainNavProps) {
         </nav>
       ) : null}
     </div>
-  )
+  );
 }
