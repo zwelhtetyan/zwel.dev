@@ -6,6 +6,7 @@ import {
   Flame,
   Send,
   type Icon as LucideIcon,
+  Menu,
 } from "lucide-react";
 import Image from "next/image";
 import { ComponentProps } from "react";
@@ -18,6 +19,7 @@ export const Icons = {
   user: User,
   flame: Flame,
   send: Send,
+  menu: Menu,
   gitHub: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
