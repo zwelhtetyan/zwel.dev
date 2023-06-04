@@ -2,12 +2,12 @@ import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
 import { buttonVariants } from "@/components/ui/button";
-import { MainNav } from "@/components/main-nav";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { Icons } from "./icons";
-import { DropdownMenu } from "./menu/dropdown-menu";
+import { ThemeToggle } from "@/components/theme/ThemeToggler";
+import { Icons } from "../icons";
+import { DropdownMenu } from "../menu/DropdownMenu";
+import { MainNav } from "./MainNav";
 
-export function SiteHeader() {
+export function Header() {
   return (
     <header className="fixed top-0 z-40 w-full border-b bg-headerBg backdrop-blur-sm">
       <div className="container flex h-16 items-center space-x-4 px-4 xs:px-8 sm:justify-between sm:space-x-0">
