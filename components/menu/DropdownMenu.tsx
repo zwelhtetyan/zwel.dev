@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site-config";
 import Link from "next/link";
 import type { NavItem } from "@/types/nav";
 import { Icons } from "../icons";

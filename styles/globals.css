@@ -79,9 +79,15 @@
     @apply border-border;
     scroll-behavior: smooth !important;
   }
-  
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply mb-8 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[6px] underline-offset-8 xs:text-2xl;
   }
 }

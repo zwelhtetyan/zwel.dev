@@ -1,11 +1,11 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
 
-import { siteConfig } from "@/config/site";
 import { fontSans } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import { Header } from "@/components/header";
+import { siteConfig } from "@/config/site-config";
 
 export const metadata: Metadata = {
   title: {

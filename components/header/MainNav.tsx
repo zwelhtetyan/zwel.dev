@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import type { NavItem } from "@/types/nav";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site-config";
 import { cn } from "@/lib/utils";
 import { Icons } from "../icons";
 

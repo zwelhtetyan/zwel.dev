@@ -1,12 +1,18 @@
+"use client";
+
+import { siteConfig } from "@/config/site-config";
+import SkillIcon from "./SkillIcon";
+import { useTheme } from "next-themes";
+
 export default function About() {
+  const { theme } = useTheme();
+
   return (
     <section
       id="about"
-      className="min-h-screen pt-24 text-muted-foreground sm:text-lg"
+      className="mt-8 min-h-screen pt-24 text-muted-foreground sm:text-lg"
     >
-      <h1 className="mb-8 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[6px] underline-offset-8 xs:text-2xl">
-        Who am I ?
-      </h1>
+      <h1 className="section-title">Who am I ?</h1>
 
       <p>
         I am a self-driven junior full-stack developer with a passion for
@@ -18,6 +24,14 @@ export default function About() {
       </p>
 
       <p className="mt-3">I am currently seeking a job opportunity.</p>
+
+      <h1 className="section-title mt-16">Tech I used</h1>
+
+      <div className="flex flex-wrap gap-2">
+        {siteConfig.skillIcons.map((icon) => (
+          <SkillIcon key={icon.path} {...icon} className="h-11 w-11" />
+        ))}
+      </div>
     </section>
   );
 }

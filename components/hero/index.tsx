@@ -3,7 +3,7 @@ import { Icons } from "../icons";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center pt-28">
+    <section className="flex flex-col items-center pt-28 xs:pt-36">
       <Image
         src="/images/bear.png"
         alt="bear"
@@ -15,8 +15,8 @@ export default function Hero() {
       <h1 className="flex flex-col items-center space-y-2 text-3xl font-bold text-muted-foreground xs:flex-row xs:space-y-0">
         <span className="flex">
           Hi
-          <Icons.wavingHand className="ml-1 inline-block h-8 xs:w-8" />,
-          <span className="ml-2">I am</span>
+          <Icons.wavingHand className="ml-1 inline-block h-8 w-8" />,
+          <span className="ml-3">I am</span>
         </span>
         <span className="font-extrabold text-foreground xs:ml-2">
           Zwel Htet Yan
