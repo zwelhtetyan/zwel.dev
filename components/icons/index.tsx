@@ -30,7 +30,7 @@ export const Icons = {
   ),
   bear: (props: { className?: ComponentProps<"img">["className"] }) => (
     // https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Panda.png
-    <Image
+    <img
       src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bear.png"
       alt="Bear"
       width={26}
@@ -39,7 +39,7 @@ export const Icons = {
     />
   ),
   wavingHand: (props: { className?: ComponentProps<"img">["className"] }) => (
-    <Image
+    <img
       src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png"
       alt="waving hand"
       width={26}
