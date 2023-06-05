@@ -9,13 +9,20 @@ export default function Hero() {
         alt="bear"
         width={500}
         height={500}
-        className="mb-7 w-[340px]"
+        className="mb-10 w-[340px]"
       />
 
-      <h1 className="text-3xl font-extrabold text-muted-foreground xs:text-4xl">
-        Hi <Icons.wavingHand className="inline-block" />, I am{" "}
-        <span className="text-[#FFC683]">Zwel Htet Yan</span>
+      <h1 className="flex items-center text-4xl font-bold text-muted-foreground xs:text-4xl">
+        Hi <Icons.wavingHand className="mb-[10px] inline-block h-10 w-10" />,
+        <span className="ml-2">I am</span>
+        <span className="ml-2 font-extrabold text-foreground">
+          Zwel Htet Yan
+        </span>
       </h1>
+
+      <div className="mt-7 rounded bg-muted px-4 py-3 text-lg">
+        A passionate fullstack developer based in Myanmar
+      </div>
     </section>
   );
 }

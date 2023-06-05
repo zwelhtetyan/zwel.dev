@@ -6,7 +6,7 @@ import { About, Contact, Hero, Projects } from "@/components";
 
 export default function IndexPage() {
   return (
-    <div className="container px-4 xs:px-8">
+    <div className="container max-w-2xl px-4 xs:px-8">
       {/* <div className="flex max-w-[980px] flex-col items-start gap-2 pt-24">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Beautifully designed components <br className="hidden sm:inline" />

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import {
   LucideProps,
   SunMedium,
@@ -8,7 +9,6 @@ import {
   type Icon as LucideIcon,
   Menu,
 } from "lucide-react";
-import Image from "next/image";
 import { ComponentProps } from "react";
 
 export type Icon = LucideIcon;
@@ -31,7 +31,7 @@ export const Icons = {
   bear: (props: { className?: ComponentProps<"img">["className"] }) => (
     // https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Panda.png
     <img
-      src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bear.png"
+      src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Panda.png"
       alt="Bear"
       width={26}
       height={26}
