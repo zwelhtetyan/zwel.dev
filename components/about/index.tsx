@@ -12,14 +12,19 @@ export default function About() {
         I am a self-driven junior full-stack developer with a passion for
         creating innovative and user-friendly web applications. I am
         consistently enthusiastic about acquiring knowledge in areas that
-        pertain to my field. In my free time, I enjoy reading articles and blogs
-        about web development, as well as occasionally playing games with my
-        friends.
+        pertain to my field.
       </p>
 
-      <p className="mt-3">I am currently seeking a job opportunity.</p>
+      <p className="mt-3">
+        In my free time, I enjoy reading articles and blogs about web
+        development, as well as occasionally playing games with my friends.
+      </p>
 
-      <h1 className="section-title mt-16">Tech I used</h1>
+      <p className="mt-3 animate-pulse font-semibold">
+        I am currently seeking a job opportunity.
+      </p>
+
+      <h1 className="section-title mt-16">Techs I used</h1>
 
       <div className="flex flex-wrap gap-2">
         {siteConfig.skillIcons.map((icon, idx) => (

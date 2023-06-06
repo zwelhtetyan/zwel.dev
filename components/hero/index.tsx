@@ -23,8 +23,9 @@ export default function Hero() {
         </span>
       </h1>
 
-      <div className="mt-10 rounded-md border bg-muted px-4 py-2 text-center sm:py-3 sm:text-lg">
-        A passionate fullstack developer based in Myanmar
+      <div className="mt-10 w-full max-w-lg rounded-md border bg-muted px-4 py-2 text-center xs:py-3 sm:text-lg">
+        A passionate fullstack developer <br className="xs:hidden" /> based in{" "}
+        <span className="font-bold">Myanmar</span>
       </div>
     </section>
   );
