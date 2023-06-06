@@ -3,7 +3,7 @@ import { Icons } from "../icons";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center pt-28 xs:pt-36">
+    <section className="mb-8 flex flex-col items-center pt-28 xs:pt-36">
       <Image
         src="/images/bear.png"
         alt="bear"
