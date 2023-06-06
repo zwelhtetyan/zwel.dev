@@ -8,6 +8,8 @@ import {
   Send,
   type Icon as LucideIcon,
   Menu,
+  Github,
+  ArrowUpRight,
 } from "lucide-react";
 import { ComponentProps } from "react";
 
@@ -20,6 +22,8 @@ export const Icons = {
   flame: Flame,
   send: Send,
   menu: Menu,
+  githubOutline: Github,
+  arrowUpRight: ArrowUpRight,
   gitHub: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
