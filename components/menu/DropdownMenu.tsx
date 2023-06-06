@@ -17,6 +17,7 @@ export function DropdownMenu() {
       <DropdownMenuTrigger asChild>
         <Button size="sm" variant="outline">
           <Icons.menu />
+          <span className="sr-only">Menu</span>
         </Button>
       </DropdownMenuTrigger>
 

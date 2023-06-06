@@ -1,46 +1,48 @@
+import { Icons } from "@/components/icons";
+
 export const skillIcons = [
   {
-    path: "/images/skill-icons/javascript.svg",
+    Icon: Icons.javascript,
     title: "Javascript",
   },
   {
-    path: "/images/skill-icons/typescript.svg",
+    Icon: Icons.typescript,
     title: "TypeScript",
   },
   {
-    path: "/images/skill-icons/react-dark.svg",
+    Icon: Icons.reactjs,
     title: "Reactjs",
   },
   {
-    path: "/images/skill-icons/nextjs-dark.svg",
+    Icon: Icons.nextjs,
     title: "Nextjs",
   },
   {
-    path: "/images/skill-icons/tailwindcss-dark.svg",
+    Icon: Icons.tailwindCSS,
     title: "TailwindCSS",
   },
   {
-    path: "/images/skill-icons/mui-light.svg",
+    Icon: Icons.materialUI,
     title: "MaterialUI",
   },
   {
-    path: "/images/skill-icons/redux.svg",
+    Icon: Icons.redux,
     title: "Redux",
   },
   {
-    path: "/images/skill-icons/nodejs-dark.svg",
+    Icon: Icons.nodejs,
     title: "Nodejs",
   },
   {
-    path: "/images/skill-icons/expressjs-dark.svg",
+    Icon: Icons.expressjs,
     title: "Expressjs",
   },
   {
-    path: "/images/skill-icons/prisma.svg",
+    Icon: Icons.prisma,
     title: "Prisma",
   },
   {
-    path: "/images/skill-icons/postgresql-dark.svg",
+    Icon: Icons.postgresql,
     title: "Postgresql",
   },
 ];

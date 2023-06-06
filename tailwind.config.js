@@ -21,6 +21,8 @@ module.exports = {
       },
       colors: {
         border: "hsl(var(--border))",
+        iconBg: "hsl(var(--icon-bg))",
+        icon: "hsl(var(--icon))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         headerBg: "hsl(var(--headerBg))",

@@ -1,6 +1,3 @@
-import Link from "next/link";
-
-import { buttonVariants } from "@/components/ui/button";
 import { About, Contact, Hero, Projects } from "@/components";
 
 export default function IndexPage() {

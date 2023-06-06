@@ -19,7 +19,6 @@ export function Header() {
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
-              className="hidden xs:block"
             >
               <div
                 className={buttonVariants({

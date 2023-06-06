@@ -1,12 +1,6 @@
-"use client";
-
 import { siteConfig } from "@/config/site-config";
-import SkillIcon from "./SkillIcon";
-import { useTheme } from "next-themes";
 
 export default function About() {
-  const { theme } = useTheme();
-
   return (
     <section
       id="about"
@@ -28,8 +22,11 @@ export default function About() {
       <h1 className="section-title mt-16">Tech I used</h1>
 
       <div className="flex flex-wrap gap-2">
-        {siteConfig.skillIcons.map((icon) => (
-          <SkillIcon key={icon.path} {...icon} className="h-11 w-11" />
+        {siteConfig.skillIcons.map((icon, idx) => (
+          <>
+            <icon.Icon key={idx} className="h-11 w-11" />
+            <span className="sr-only">{icon.title}</span>
+          </>
         ))}
       </div>
     </section>
