@@ -1,4 +1,5 @@
 import { siteConfig } from "@/config/site-config";
+import { Icons } from "../icons";
 
 export default function About() {
   return (
@@ -20,9 +21,7 @@ export default function About() {
         development, as well as occasionally playing games with my friends.
       </p>
 
-      <p className="mt-3 animate-pulse font-semibold">
-        I am currently seeking a job opportunity.
-      </p>
+      <p className="mt-3">👀 I am currently seeking a job opportunity.</p>
 
       <h1 className="section-title mt-16">Techs I used</h1>
 
@@ -34,6 +33,15 @@ export default function About() {
           </>
         ))}
       </div>
+
+      {/* ♥ */}
+      <h1 className="section-title mt-16">
+        <span>
+          I <Icons.heart className="inline-block" /> a
+        </span>
+      </h1>
+
+      <p>Coding, Football, Music, Art, Reading and Learning the new things.</p>
     </section>
   );
 }

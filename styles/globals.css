@@ -76,7 +76,7 @@
     --radius: 0.5rem;
 
     --icon-bg: 216 34% 17%;
-    --icon: 0 0% 100%
+    --icon: 0 0% 100%;
   }
 }
 
@@ -94,6 +94,6 @@
 
 @layer components {
   .section-title {
-    @apply mb-8 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[6px] underline-offset-8 xs:text-2xl;
+    @apply mb-7 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[5px] underline-offset-8 xs:text-2xl;
   }
 }

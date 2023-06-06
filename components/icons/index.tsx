@@ -46,16 +46,35 @@ export const Icons = {
       {...props}
     />
   ),
-  javascript: (className: {
-    className?: ComponentProps<"svg">["className"];
-  }) => (
+  heart: (props: LucideProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      {...props}
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+      <path
+        d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z"
+        stroke-width="0"
+        fill="currentColor"
+      ></path>
+    </svg>
+  ),
+  javascript: (props: LucideProps) => (
     <svg
       width="256"
       height="256"
       viewBox="0 0 256 256"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" rx="60" fill="#F0DB4F" />
       <path
@@ -68,16 +87,14 @@ export const Icons = {
       />
     </svg>
   ),
-  typescript: (className: {
-    className?: ComponentProps<"svg">["className"];
-  }) => (
+  typescript: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" fill="#007ACC" rx="60" />
       <path
@@ -90,14 +107,14 @@ export const Icons = {
       />
     </svg>
   ),
-  reactjs: (className: { className?: ComponentProps<"svg">["className"] }) => (
+  reactjs: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" className="fill-iconBg" rx="60" />
       <path
@@ -127,14 +144,14 @@ export const Icons = {
       />
     </svg>
   ),
-  nextjs: (className: { className?: ComponentProps<"svg">["className"] }) => (
+  nextjs: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" className="fill-iconBg" rx="60" />
       <path
@@ -143,16 +160,14 @@ export const Icons = {
       />
     </svg>
   ),
-  tailwindCSS: (className: {
-    className?: ComponentProps<"svg">["className"];
-  }) => (
+  tailwindCSS: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" fill="" rx="60" className="fill-iconBg" />
       <path
@@ -176,16 +191,14 @@ export const Icons = {
       </defs>
     </svg>
   ),
-  materialUI: (className: {
-    className?: ComponentProps<"svg">["className"];
-  }) => (
+  materialUI: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" className="fill-iconBg" rx="60" />
       <path
@@ -196,14 +209,14 @@ export const Icons = {
       />
     </svg>
   ),
-  redux: (className: { className?: ComponentProps<"svg">["className"] }) => (
+  redux: (props: LucideProps) => (
     <svg
       width="256"
       height="256"
       viewBox="0 0 256 256"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" rx="60" fill="#764ABC" />
       <path
@@ -220,14 +233,14 @@ export const Icons = {
       />
     </svg>
   ),
-  nodejs: (className: { className?: ComponentProps<"svg">["className"] }) => (
+  nodejs: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" className="fill-iconBg" rx="60" />
       <path
@@ -240,16 +253,14 @@ export const Icons = {
       />
     </svg>
   ),
-  expressjs: (className: {
-    className?: ComponentProps<"svg">["className"];
-  }) => (
+  expressjs: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" className="fill-iconBg" rx="60" />
       <path
@@ -262,14 +273,14 @@ export const Icons = {
       />
     </svg>
   ),
-  prisma: (className: { className?: ComponentProps<"svg">["className"] }) => (
+  prisma: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" fill="#677EEB" rx="60" />
       <path
@@ -280,16 +291,14 @@ export const Icons = {
       />
     </svg>
   ),
-  postgresql: (className: {
-    className?: ComponentProps<"svg">["className"];
-  }) => (
+  postgresql: (props: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="256"
       height="256"
       fill="none"
       viewBox="0 0 256 256"
-      {...className}
+      {...props}
     >
       <rect width="256" height="256" className="fill-iconBg" rx="60" />
       <path
