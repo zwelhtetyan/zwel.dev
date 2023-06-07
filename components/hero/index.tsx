@@ -9,7 +9,7 @@ export default function Hero() {
         alt="bear"
         width={500}
         height={500}
-        className="mb-14 w-80"
+        className="mb-14 w-64 xs:w-80"
       />
 
       <h1 className="flex flex-col items-center space-y-2 text-3xl font-bold text-muted-foreground xs:flex-row xs:space-y-0">
