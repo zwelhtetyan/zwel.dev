@@ -12,8 +12,16 @@ export default function ProjectCard({
   preview,
 }: Project) {
   return (
-    <div className="w-full max-w-[400px]">
-      <Image src={image} alt={title} width={400} height={400} />
+    <div className="w-full max-w-[400px] overflow-hidden">
+      <Link target="_blank" rel="noreferrer" href={preview}>
+        <Image
+          src={image}
+          alt={title}
+          width={400}
+          height={400}
+          className="transition-all duration-500 hover:scale-105 hover:opacity-80"
+        />
+      </Link>
 
       <div className="p-2 pt-[2px]">
         <div className="flex w-full items-center justify-between">
