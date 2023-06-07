@@ -19,6 +19,7 @@ export default function ProjectCard({
           alt={title}
           width={400}
           height={400}
+          priority
           className="transition-all duration-500 hover:scale-[.99] hover:opacity-80"
         />
       </Link>

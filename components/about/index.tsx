@@ -31,7 +31,7 @@ export default function About() {
         <p className="flex items-center">
           I <Icons.heart className="ml-2 inline-block h-[22px] w-[22px]" />
         </p>
-        <div className="title-underline" />
+        <div className="title-underline w-10 xs:w-[42px]" />
       </h1>
       <p>Coding, Football, Music, Art, Reading and Learning new things.</p>
     </section>

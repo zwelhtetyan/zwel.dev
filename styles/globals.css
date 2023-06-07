@@ -94,11 +94,11 @@
 
 @layer components {
   .section-title {
-    @apply mb-7 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[5px] underline-offset-8 xs:text-2xl;
+    @apply mb-7 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[5px] underline-offset-[10px] xs:text-2xl;
   }
 
   .title-underline {
-    @apply mt-[1px] h-[5px] w-9 bg-muted-foreground;
+    @apply mt-[6px] h-[5px] bg-muted-foreground xs:mt-1;
   }
 
   .link-hover {
