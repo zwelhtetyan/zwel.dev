@@ -100,4 +100,8 @@
   .title-underline {
     @apply mt-[1px] h-[5px] w-9 bg-muted-foreground;
   }
+
+  .link-hover {
+    @apply underline-offset-4 transition-all duration-300 hover:text-primary hover:underline;
+  }
 }

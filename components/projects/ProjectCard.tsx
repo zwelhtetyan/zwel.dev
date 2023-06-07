@@ -29,7 +29,7 @@ export default function ProjectCard({
             target="_blank"
             rel="noreferrer"
             href={preview}
-            className="flex-1 cursor-pointer text-base font-bold text-primary underline-offset-2 hover:underline sm:text-lg"
+            className="link-hover text-base font-bold text-primary sm:text-lg"
           >
             {title}
           </Link>
