@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
+import { NavItem } from "@/types/nav";
 
-export const mainNav = [
+export const mainNav: NavItem[] = [
   {
     title: "About",
     href: "#about",

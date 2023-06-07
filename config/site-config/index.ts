@@ -1,6 +1,7 @@
 import { mainNav } from "./main-nav";
 import { links } from "./links";
 import { skillIcons } from "./skill-icons";
+import { projects } from "./projects";
 
 export type SiteConfig = typeof siteConfig;
 
@@ -11,4 +12,5 @@ export const siteConfig = {
   mainNav,
   links,
   skillIcons,
+  projects,
 };

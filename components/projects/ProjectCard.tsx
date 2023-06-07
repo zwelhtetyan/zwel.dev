@@ -1,29 +1,36 @@
 import Image from "next/image";
 import { Icons } from "../icons";
-import { Button, buttonVariants } from "../ui/button";
 import Link from "next/link";
+import { buttonVariants } from "../ui/button";
+import { Project } from "@/types/project";
 
-export default function ProjectCard() {
+export default function ProjectCard({
+  image,
+  title,
+  desc,
+  repo,
+  preview,
+}: Project) {
   return (
-    <div className="w-72">
-      <Image
-        src="/images/dev.to-clone.png"
-        alt="dev.to-homepage"
-        width={400}
-        height={400}
-      />
+    <div className="w-full max-w-[400px]">
+      <Image src={image} alt={title} width={400} height={400} />
 
-      <div className="p-2 pt-1">
+      <div className="p-2 pt-[2px]">
         <div className="flex w-full items-center justify-between">
-          <h2 className="flex-1 cursor-pointer font-bold text-foreground underline-offset-2 hover:underline">
-            dev.to clone
-          </h2>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={preview}
+            className="flex-1 cursor-pointer text-base font-bold text-primary underline-offset-2 hover:underline sm:text-lg"
+          >
+            {title}
+          </Link>
 
           <div className="">
             <Link
               target="_blank"
               rel="noreferrer"
-              href="/"
+              href={repo}
               className={buttonVariants({ variant: "ghost", size: "sm" })}
             >
               <Icons.githubOutline />
@@ -33,7 +40,7 @@ export default function ProjectCard() {
             <Link
               target="_blank"
               rel="noreferrer"
-              href="/"
+              href={preview}
               className={buttonVariants({ variant: "ghost", size: "sm" })}
             >
               <Icons.arrowUpRight />
@@ -42,7 +49,7 @@ export default function ProjectCard() {
           </div>
         </div>
 
-        <p className="mt-1 text-base">Social blog platform for developers.</p>
+        <p className="mt-[2px] text-base">{desc}</p>
       </div>
     </div>
   );
