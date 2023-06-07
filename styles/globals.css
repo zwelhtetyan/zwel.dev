@@ -93,12 +93,8 @@
 }
 
 @layer components {
-  .section-title {
-    @apply mb-7 text-xl font-bold text-foreground underline decoration-muted-foreground decoration-[5px] underline-offset-[10px] xs:text-2xl;
-  }
-
-  .title-underline {
-    @apply mt-[6px] h-[5px] bg-muted-foreground xs:mt-1;
+  .bottom-line {
+    @apply mb-7 inline-block border-b-8 pb-[2px] text-xl font-bold text-foreground xs:pb-1 xs:text-2xl;
   }
 
   .link-hover {
