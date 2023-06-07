@@ -1,4 +1,4 @@
 export const links = {
   github: "https://github.com/zwelhtetyan",
-  docs: "https://ui.shadcn.com",
+  linkedin: "https://www.linkedin.com/in/zwelhtetyan",
 };
