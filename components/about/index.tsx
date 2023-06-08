@@ -31,7 +31,7 @@ export default function About() {
         ))}
       </div>
 
-      <h1 className="bottom-line mt-14 inline-flex items-center">
+      <h1 className="bottom-line mb-5 mt-14 inline-flex items-center">
         I <Icons.heart className="ml-2 h-5 w-5" />
       </h1>
 

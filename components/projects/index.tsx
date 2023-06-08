@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   return (
     <section id="work" className="pt-24 text-muted-foreground sm:text-lg">
-      <h1 className="bottom-line">Featured projects</h1>
+      <h1 className="bottom-line mb-5">Featured projects</h1>
 
       <p>Talk is cheap, here are some of my works.</p>
 
