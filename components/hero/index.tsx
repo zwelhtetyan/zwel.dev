@@ -9,7 +9,7 @@ export default function Hero() {
         alt="bear"
         width={500}
         height={500}
-        className="mb-16 w-60 xs:w-80"
+        className="mb-16 w-60 xs:w-72"
         priority
       />
 
