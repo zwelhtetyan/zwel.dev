@@ -94,7 +94,7 @@
 
 @layer components {
   .bottom-line {
-    @apply mb-7 inline-block border-b-[6px] pb-[2px] text-xl font-bold text-foreground xs:pb-1 xs:text-2xl;
+    @apply mb-7 inline-block border-b-4 text-xl font-bold text-foreground xs:text-2xl;
   }
 
   .link-hover {
