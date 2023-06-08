@@ -1,3 +1,4 @@
-# zwel.dev
+### Zwel's minimalist portfolio build with nextjs and tailwindcss
 
-Zwel's portfolio
+
+![preview image](https://zwel.vercel.app/images/og.png)
