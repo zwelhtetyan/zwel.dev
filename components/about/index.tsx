@@ -1,5 +1,6 @@
 import { siteConfig } from "@/config/site-config";
 import { Icons } from "../icons";
+import { Fragment } from "react";
 
 export default function About() {
   return (
@@ -24,10 +25,10 @@ export default function About() {
 
       <div className="flex flex-wrap gap-2">
         {siteConfig.skillIcons.map((icon, idx) => (
-          <>
+          <Fragment key={idx}>
             <icon.Icon key={idx} className="h-11 w-11" />
             <span className="sr-only">{icon.title}</span>
-          </>
+          </Fragment>
         ))}
       </div>
 
