@@ -29,11 +29,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     countryName: siteConfig.country,
     url: siteConfig.url,
-    images: {
-      url: siteConfig.ogImage,
-      width: 1200,
-      height: 630,
-    },
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
