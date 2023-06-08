@@ -3,13 +3,13 @@ import { Icons } from "../icons";
 
 export default function Hero() {
   return (
-    <section className="mb-8 flex flex-col items-center pt-28 xs:pt-36">
+    <section className="mb-8 flex flex-col items-center pt-32 xs:pt-40">
       <Image
         src="/images/panda.png"
         alt="bear"
         width={500}
         height={500}
-        className="mb-16 w-64 xs:w-80"
+        className="mb-16 w-60 xs:w-80"
         priority
       />
 
@@ -24,7 +24,7 @@ export default function Hero() {
         </span>
       </h1>
 
-      <div className="mt-5 w-full max-w-lg rounded-md border bg-muted px-4 py-2 text-center xs:py-3 sm:text-lg">
+      <div className="mt-5 w-full max-w-lg rounded-md border bg-muted px-4 py-2 text-center xs:py-3 sm:mt-8 sm:text-lg">
         A passionate fullstack developer <br className="xs:hidden" /> based in{" "}
         <span className="font-bold">Myanmar</span>
       </div>

@@ -8,7 +8,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Zwel",
-  title: "Zwel - A passionate full-stack developer",
+  title: "Zwel - A full-stack developer",
   url: envConfig.BASE_URL,
   description:
     "Zwel is a passionate full-stack developer based in Myanmar. He writes code to solve real-life challenges.",

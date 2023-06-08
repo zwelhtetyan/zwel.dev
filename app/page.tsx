@@ -7,7 +7,7 @@ export default function IndexPage() {
       <About />
       <Projects />
       <Contact />
-      <p className="mt-16 text-center text-sm text-muted-foreground">
+      <p className="mt-16 text-center text-xs text-muted-foreground xs:text-sm">
         &#169; {new Date().getFullYear()} Zwel. All Rights Reserved.
       </p>
     </div>
