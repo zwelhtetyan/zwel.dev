@@ -1,4 +1,4 @@
-### Zwel's minimalist portfolio developed with nextjs and tailwindcss
+### Zwel's minimalist portfolio developed with `Nextjs` and `ShadcnUI`
 
 <br />
 
