@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mb-8 flex flex-col items-center pt-32 xs:pt-40">
+    <section className="flex flex-col items-center pt-32 xs:pt-40">
       <Image
         src="/images/panda.png"
         alt="bear"
